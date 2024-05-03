@@ -17,7 +17,7 @@ function SizesExample() {
           aria-describedby="inputGroup-sizing-default"
         />
       </InputGroup>
-      <Row className=' justify-content-center '>
+      <Row className=' justify-content-center gap-2'>
         {data.map(player=>(
 
           <LegendCard key={player.id} player={player}/>
