@@ -5,7 +5,7 @@ import pllogo from "../../src/assets/kisspng-201617-premier-league-english-footb
 const Header = () => {
   return (
     <Container>
-       <Image src={pllogo} width={}/>
+       <Image src={pllogo} width={'200px'}/>
     </Container>
   )
 }
