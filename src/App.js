@@ -1,6 +1,6 @@
 import {Container}  from "react-bootstrap";
 import Header from "./components/Header";
-import LegendContainer from "./components/LegendContainer";
+import LegendContainer from "./components/legends/LegendContainer";
 
 
 
