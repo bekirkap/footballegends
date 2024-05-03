@@ -5,6 +5,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url('https://mrwallpaper.com/images/hd/uefa-champions-league-star-football-logo-8dv90jbvwwhzp9c0.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 code {
