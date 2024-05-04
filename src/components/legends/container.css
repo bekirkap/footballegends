@@ -1,9 +1,10 @@
 .legendcard{
-    height: 400px;
+    max-height: 375px;
+    min-height: 375px;
     overflow: hidden;
-    margin-top: 5px;
+
     & img {
-      /* filter:blur(3px); */
+    
       transition: transform 0.3s;
       height: 100%;
       width: 100%;
@@ -16,4 +17,19 @@
         filter: none;
       }
     }
+}
+.legendcard2{
+    max-height: 375px;
+    min-height: 375px;
+    overflow: hidden;
+    font-weight: 700;
+    font-size: 1.5rem;
+  
+    & img {
+      filter:blur(3px);
+      transition: transform 0.3s;
+      height: 100%;
+      width: 100%;
+    }
+
 }
